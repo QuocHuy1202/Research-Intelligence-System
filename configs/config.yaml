@@ -1,0 +1,12 @@
+models:
+  ner_model_path: "huyakaz/scibert-ner-scierc"
+  re_model_path: "huyakaz/scibert-re-scierc"
+  qwen_model_name: "Qwen/Qwen2.5-1.5B-Instruct"
+
+thresholds:
+  ner_score: 0.5
+  re_score: 0.6
+  max_text_len: 512
+
+search:
+  top_k: 5
