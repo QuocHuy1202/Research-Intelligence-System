@@ -40,11 +40,9 @@ pip install -r requirements.txt
 **3. Environment Variables**
 Create a .env file in the root directory and add your API keys:
 
-# Required for real-time paper retrieval
-S2_API_KEY
+*Required for real-time paper retrieval:* **S2_API_KEY**
 
-# Required for downloading models from Hugging Face
-HF_TOKEN
+*Required for downloading models from Hugging Face:* **HF_TOKEN**
 
 ## Usage Guide
 **Method 1: Command Line Interface (CLI)**
